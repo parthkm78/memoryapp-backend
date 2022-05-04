@@ -7,7 +7,7 @@
 // *
 // * Date created		: 04/05/2022
 // *
-// * Purpose			: server properties 
+// * Purpose			: redis properties 
 // *                     
 // * Revision History	:
 // *
@@ -17,6 +17,6 @@
 // **********************************************************************
 
 export default {
-    "url": "http://localhost:5000",
-    "port": 5000
+    "PORT": "6379",
+    "HOST": "localhost"
 }

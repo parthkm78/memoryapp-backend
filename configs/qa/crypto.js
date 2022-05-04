@@ -4,7 +4,7 @@
 // *
 // * Date created		: 04/05/2022
 // *
-// * Purpose			: Crypto config properties 
+// * Purpose			: Crypto library config properties 
 // *                     
 // * Revision History	:
 // *

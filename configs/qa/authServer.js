@@ -5,18 +5,18 @@
  *
  * Author            : Parth Mehta
  *
- * Date created      : 17/07/2021
+ * Date created      : 04/05/2022
  *
  * Purpose           : Server config file for Nodejs application
  *
  * Revision History  :
  *
 
- **********************************************************************
+ ****************************04/05/2022******************************************
  */
 
 export default {
-    "url": "http://10.104.0.3:6000/",
+    "url": "http://localhost:6000/auth/",
     "generateToken": "generateToken",
     "validateToken": "validateToken"
 }

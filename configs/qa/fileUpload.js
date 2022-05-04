@@ -7,7 +7,7 @@
 // *
 // * Date created		: 04/05/2022
 // *
-// * Purpose			: server properties 
+// * Purpose			: fileupload properties 
 // *                     
 // * Revision History	:
 // *
@@ -16,7 +16,9 @@
 // *
 // **********************************************************************
 
-export default {
-    "url": "http://localhost:5000",
-    "port": 5000
+export default{
+        bufferSize: 4 * 1024 * 1024,// Set the maximum length of a transfer to 4MB.
+        maxBuffers: 20, // Set the maximum number of workers that may be used in a parallel transfer.
+        containerName : "memoryApp-dev",
+        baseUrl : "memories"
 }

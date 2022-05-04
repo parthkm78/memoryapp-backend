@@ -97,7 +97,7 @@ export const fetchMemories = async (req, res) => {
 
     //-------- Configure default sorting-------
     if (!req.body.sort || Object.keys(req.body.sort).length === 0) {
-        req.body.sort = { registeredDate: -1 }
+        req.body.sort = { createdAt: -1 }
     }
     // fetch values
     let memories = await aggregateRecordsExcludeLookup(
@@ -129,7 +129,7 @@ export const fetchPublicMemories = async (req, res) => {
 
     //-------- Configure default sorting-------
     if (!req.body.sort || Object.keys(req.body.sort).length === 0) {
-        req.body.sort = { registeredDate: -1 }
+        req.body.sort = { createdAt: -1 }
     }
     // fetch values
     let memories = await aggregateRecordsExcludeLookup(

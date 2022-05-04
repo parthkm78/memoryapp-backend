@@ -19,9 +19,9 @@
 const port = process.env.PORT || 5000
 export default {
     "open_api_version": "3.0.3",
-    "title": "Cherie User API",
+    "title": "MemoryApp  APIs",
     "version": "1.0.0",
-    "description": "Controller for Cherie API Calls are defined here",
-    "url": "https://localhost:" + port,
-    "apis": ["./routes/api/v2/*.js"]
+    "description": "Controller for Memory App API Calls are defined here",
+    "url": "http://localhost:5000",
+    "apis": ["./routes/api/v1/*.js"]
 }

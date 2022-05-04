@@ -5,7 +5,7 @@
 // *
 // * Author				: Parth Mehta
 // *
-// * Date created		: 04/05/2022
+// * Date created		: 03/05/2022
 // *
 // * Purpose			: database properties 
 // *                     
@@ -21,5 +21,5 @@ export default {
     "PASSWORD":"test",
     "HOST":"localhost",
     "PORT":"27017",
-    "AUTH_DB_NAME": "cherieUserDB"
+    "AUTH_DB_NAME": "memoryAppDB"
 }
